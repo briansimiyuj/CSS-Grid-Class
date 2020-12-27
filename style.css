@@ -13,10 +13,10 @@ body{
 #content div{
     background-color: blue;
     padding: 40px;
+    /* The height of the children is determined by its content */ 
 }
 
 #content div:nth-child(even){
     background: purple;
 }
 
-/* https://www.youtube.com/watch?v=d-MHl_Q_hp8&t=338s */
