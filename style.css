@@ -8,7 +8,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     max-width: 960px;
     margin: 0 auto;
-    grid-auto-rows: minmax(200px, auto); /* Specific height when the child has some contents */
+    grid-template-rows: 200px 300px 400px;
 }
 
 #content div{
