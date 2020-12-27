@@ -4,7 +4,8 @@ body{
 }
 
 #content{
-    display: grid;  /* Apply display type of grid to the parent container */
+    display: grid;  
+    grid-template-columns: 33.3% 33.3% 33.3%; /* Grid template column specifies how the children should span across the parent container  */
     max-width: 960px;
     margin: 0 auto;
 }
