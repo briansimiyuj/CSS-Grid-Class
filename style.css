@@ -5,7 +5,7 @@ body{
 
 #content{
     display: grid;  
-    grid-template-columns: 33.3% 33.3% 33.3%; /* Grid template column specifies how the children should span across the parent container  */
+    grid-template-columns: 30% 20% 50%; /* Columns can have different width */  
     max-width: 960px;
     margin: 0 auto;
 }
