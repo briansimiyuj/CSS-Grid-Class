@@ -5,7 +5,7 @@ body{
 
 #content{
     display: grid;  
-    grid-template-columns: 1fr 1fr 1fr; /* We mainly use fraction */
+    grid-template-columns: repeat(3, 1fr);
     max-width: 960px;
     margin: 0 auto;
 }
