@@ -21,3 +21,6 @@ body{
     background: purple;
 }
 
+.class1{
+    grid-column-start: 1;
+}
