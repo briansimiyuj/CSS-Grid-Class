@@ -5,10 +5,10 @@ body{
 
 #content{
     display: grid;  
-    grid-template-columns: repeat(3, 1fr);
     max-width: 960px;
     margin: 0 auto;
-    grid-template-rows: repeat(3, minmax(200px, auto));
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, minmax(150px, auto));
     grid-gap: 10px;
 }
 
@@ -21,4 +21,3 @@ body{
     background: purple;
 }
 
-/* https://www.youtube.com/watch?v=MDQG6LSS8l8&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&index=3 */
