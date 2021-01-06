@@ -7,30 +7,17 @@ body{
     display: grid;  
     max-width: 960px;
     margin: 0 auto;
+    grid-template-rows: minmax(150px, auto);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    align-items: start; /* Elements go to the top of the row */
 }
 
 #content div{
     background-color: blue;
-    padding: 40px;    
+    padding: 30px;    
 }
 
 #content div:nth-child(even){
     background: purple;
 }
-
-.nested{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-column: span 3;
-}
-
-p{
-    border: 1px solid #fff;
-    padding: 20px;
-    margin: 0;
-}
-
-/* https://www.youtube.com/watch?v=211A79O_jX8&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&index=5 */
