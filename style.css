@@ -10,8 +10,6 @@ body{
     grid-template-rows: minmax(150px, auto);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    align-items: stretch;
-    justify-items: end; /* puts elements at the end of the column */
 }
 
 #content div{
@@ -21,4 +19,8 @@ body{
 
 #content div:nth-child(even){
     background: purple;
+}
+
+.class1{
+    justify-self: start;
 }
