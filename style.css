@@ -10,7 +10,7 @@ body{
     grid-template-rows: minmax(150px, auto);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    align-items: end; /* Elements go to the bottom of the row */
+    align-items: stretch; /* Default value */
 }
 
 #content div{
