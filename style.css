@@ -16,3 +16,7 @@ body{
     background: #3bbced;
     padding: 30px;
 }
+
+header{
+    grid-column: 1/13;
+}
