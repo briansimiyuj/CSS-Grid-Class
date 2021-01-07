@@ -38,3 +38,7 @@ section{
 nav{
     grid-column: 1/4;
 }
+
+footer{
+    grid-column: 1/13;
+}
