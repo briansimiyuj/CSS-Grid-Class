@@ -23,4 +23,15 @@ body{
 
 .class1{
     justify-self: end;
+    align-self: end;
+}
+
+.class2{
+    align-self: center;
+    justify-self: center;
+}
+
+.class3{
+    align-self: start;
+    justify-self: start;
 }
