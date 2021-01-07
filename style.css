@@ -16,3 +16,8 @@ body{
     background-color: purple;
     padding: 30px;    
 }
+
+.class1{
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
