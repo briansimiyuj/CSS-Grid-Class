@@ -20,3 +20,8 @@ body{
 header{
     grid-column: 1/13;
 }
+
+main{
+    grid-column: 4/13;
+    grid-row: 2/4;
+}
