@@ -29,3 +29,8 @@ main{
 aside{
     grid-column: 1/4;
 }
+
+section{
+    grid-column: 1/13;
+    grid-row: 4/6;
+}
